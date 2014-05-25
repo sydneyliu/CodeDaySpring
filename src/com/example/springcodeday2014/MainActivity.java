@@ -16,13 +16,13 @@ import android.os.Build;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener  {
 	Button eat;
-	//Button boyfriend;
-	//Button aiya;
-	//Button stupid;
-	//MediaPlayer eats = MediaPlayer.create(MainActivity.this, R.raw.eat);
-	//MediaPlayer boyfriends = MediaPlayer.create(MainActivity.this, R.raw.boyfriend);
-	//MediaPlayer aiyas = MediaPlayer.create(MainActivity.this, R.raw.aiya);
-	//MediaPlayer stupids = MediaPlayer.create(MainActivity.this, R.raw.stupid);
+	Button boyfriend;
+	Button aiya;
+	Button stupid;
+	MediaPlayer eats;
+	MediaPlayer boyfriends;
+	MediaPlayer aiyas;
+	MediaPlayer stupids;
 	@Override
 	
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,28 +30,29 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 		setContentView(R.layout.activity_main);
 		
 		eat = (Button) findViewById(R.id.eat);
-		/*
 		boyfriend = (Button) findViewById(R.id.boyfriend);
 		aiya = (Button) findViewById(R.id.aiya);
 		stupid = (Button) findViewById(R.id.stupid);
-		*/
+		eats = MediaPlayer.create(this, R.raw.eat);
+		boyfriends = MediaPlayer.create(MainActivity.this, R.raw.boyfriend);
+		aiyas = MediaPlayer.create(MainActivity.this, R.raw.aiya);
+		stupids = MediaPlayer.create(MainActivity.this, R.raw.stupid);
 		
-		/*eat.setOnClickListener(new View.OnClickListener() {
+		eat.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				//eats.start();
-				System.out.println("some output");
+				eats.start();
 			}
-		}); */
-		/*
+		}); 
+		
 		boyfriend.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				//boyfriends.start();
+				boyfriends.start();
 			}
 		});
 		aiya.setOnClickListener(new View.OnClickListener() {
@@ -59,7 +60,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				//aiyas.start();
+				aiyas.start();
 			}
 		});
 		stupid.setOnClickListener(new View.OnClickListener() {
@@ -67,15 +68,11 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				//stupids.start();
+				stupids.start();
 			}
 		});
 		
-		*/
-		if (savedInstanceState == null) {
-			getSupportFragmentManager().beginTransaction()
-					.add(R.id.container, new PlaceholderFragment()).commit();
-		}
+		
 	}
 
 	@Override
