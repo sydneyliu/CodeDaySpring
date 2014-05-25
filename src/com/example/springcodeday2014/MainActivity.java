@@ -16,30 +16,36 @@ import android.os.Build;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener  {
 	Button eat;
-	Button boyfriend;
-	Button aiya;
-	Button stupid;
+	//Button boyfriend;
+	//Button aiya;
+	//Button stupid;
 	//MediaPlayer eats = MediaPlayer.create(MainActivity.this, R.raw.eat);
 	//MediaPlayer boyfriends = MediaPlayer.create(MainActivity.this, R.raw.boyfriend);
 	//MediaPlayer aiyas = MediaPlayer.create(MainActivity.this, R.raw.aiya);
 	//MediaPlayer stupids = MediaPlayer.create(MainActivity.this, R.raw.stupid);
 	@Override
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
 		eat = (Button) findViewById(R.id.eat);
+		/*
 		boyfriend = (Button) findViewById(R.id.boyfriend);
 		aiya = (Button) findViewById(R.id.aiya);
 		stupid = (Button) findViewById(R.id.stupid);
-		eat.setOnClickListener(new View.OnClickListener() {
+		*/
+		
+		/*eat.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				//eats.start();
+				System.out.println("some output");
 			}
-		});
+		}); */
+		/*
 		boyfriend.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -65,7 +71,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			}
 		});
 		
-		
+		*/
 		if (savedInstanceState == null) {
 			getSupportFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();

@@ -4,5 +4,6 @@
     <string name="app_name">SpringCodeDay2014</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="desc">Description</string>
 
 </resources>
