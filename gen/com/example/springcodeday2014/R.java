@@ -1112,7 +1112,8 @@ containing a value of this type.
         public static final int aiya=0x7f050000;
         public static final int boyfriend=0x7f050001;
         public static final int eat=0x7f050002;
-        public static final int stupid=0x7f050003;
+        public static final int laoshu=0x7f050003;
+        public static final int stupid=0x7f050004;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 

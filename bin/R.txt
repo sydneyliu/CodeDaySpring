@@ -325,7 +325,8 @@ int menu main 0x7f0d0000
 int raw aiya 0x7f050000
 int raw boyfriend 0x7f050001
 int raw eat 0x7f050002
-int raw stupid 0x7f050003
+int raw laoshu 0x7f050003
+int raw stupid 0x7f050004
 int string abc_action_bar_home_description 0x7f0b0001
 int string abc_action_bar_up_description 0x7f0b0002
 int string abc_action_menu_overflow_description 0x7f0b0003
