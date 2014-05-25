@@ -55,4 +55,14 @@
         android:layout_alignTop="@+id/imgAngry"
         android:background="@android:color/transparent"
      />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgAngry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="Asian Mother" />
+
 </RelativeLayout>

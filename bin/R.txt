@@ -239,7 +239,7 @@ int id action_context_bar 0x7f06001d
 int id action_menu_divider 0x7f060016
 int id action_menu_presenter 0x7f060017
 int id action_mode_close_button 0x7f060024
-int id action_settings 0x7f060041
+int id action_settings 0x7f060042
 int id activity_chooser_view_content 0x7f060025
 int id aiya 0x7f06003f
 int id always 0x7f06000b
@@ -289,6 +289,7 @@ int id split_action_bar 0x7f06001e
 int id stupid 0x7f060040
 int id submit_area 0x7f060039
 int id tabMode 0x7f060002
+int id textView1 0x7f060041
 int id title 0x7f06002b
 int id top_action_bar 0x7f060020
 int id up 0x7f060021
