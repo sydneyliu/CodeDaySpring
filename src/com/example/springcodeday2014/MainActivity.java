@@ -29,8 +29,8 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 	SensorManager mSensorManager;
 	Sensor mAccelerometer;
 	ShakeDetector mShakeDetector;
-	@Override
 	
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -50,7 +50,6 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			
 			@Override
 			public void onShake() {
-				// TODO Auto-generated method stub
 				laoshus.start();
 			}
 		});
@@ -59,7 +58,6 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				eats.start();
 			}
 		}); 
@@ -68,7 +66,6 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				boyfriends.start();
 			}
 		});
@@ -76,7 +73,6 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				aiyas.start();
 			}
 		});
@@ -84,7 +80,6 @@ public class MainActivity extends ActionBarActivity implements OnClickListener  
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
 				stupids.start();
 			}
 		});
